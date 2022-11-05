@@ -1,24 +1,8 @@
-# simple-site
+# Simple (Vue.js) Site
+A project to make a simple website using Vue.js (and something back-end to be chosen later!)
 
-## Project setup
-```
-npm install
-```
+## Getting here
+* Create the project: `vue create simple-site`
+* Add Vue Router: `vue add router`
+* Add Axios: `npm install axios`
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

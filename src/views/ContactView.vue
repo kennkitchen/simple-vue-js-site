@@ -4,7 +4,7 @@
     <MenuOpen></MenuOpen>
 
     <div class="w3-container">
-      <h1>About</h1>
+      <h1>Contact</h1>
       <p>In this example, the sidebar is hidden (style="display:none")</p>
       <p>It is shown when you click on the menu icon in the top left corner.</p>
       <p>When it is opened, it shifts the page content to the right.</p>
@@ -18,7 +18,7 @@
 
 import MenuOpen from "@/components/MenuOpen";
 export default {
-  name: '/ContactAboutView',
+  name: 'ContactView',
   components: {MenuOpen}
 
 }
