@@ -4,11 +4,10 @@
     <MenuOpen></MenuOpen>
 
     <div class="w3-container">
-      <h1>About</h1>
-      <p>In this example, the sidebar is hidden (style="display:none")</p>
-      <p>It is shown when you click on the menu icon in the top left corner.</p>
-      <p>When it is opened, it shifts the page content to the right.</p>
-      <p>We use JavaScript to add a 25% left margin to the div element with id="main" when this happens. The value "25%" matches the width of the sidebar.</p>
+      <h1>About {{ title }}</h1>
+      <p>This is the about page.</p>
+      <p>This is a site built with Vue.js that I'm using as a personal refresher.</p>
+      <p>As you can see, there isn't a lot here yet! Mainly I'm getting re-familiarized with routing at the moment.</p>
     </div>
 
   </div>
@@ -19,7 +18,12 @@
 import MenuOpen from "@/components/MenuOpen";
 export default {
   name: '/ContactAboutView',
-  components: {MenuOpen}
+  components: {MenuOpen},
+  data() {
+    return {
+      title: process.env.VUE_APP_TEST
+    };
+  }
 
 }
 </script>

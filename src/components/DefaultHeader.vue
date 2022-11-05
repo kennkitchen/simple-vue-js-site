@@ -1,6 +1,6 @@
 <template>
   <div class="">
-    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left" style="display:none" id="mySidebar">
+    <div class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-light-grey" style="display:none" id="mySidebar">
       <button class="w3-bar-item w3-button w3-large"
               @click="w3Close">Close &times;</button>
       <router-link to="/" class="w3-bar-item w3-button" @click="w3Close">Home</router-link>

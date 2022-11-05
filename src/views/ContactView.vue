@@ -5,10 +5,9 @@
 
     <div class="w3-container">
       <h1>Contact</h1>
-      <p>In this example, the sidebar is hidden (style="display:none")</p>
-      <p>It is shown when you click on the menu icon in the top left corner.</p>
-      <p>When it is opened, it shifts the page content to the right.</p>
-      <p>We use JavaScript to add a 25% left margin to the div element with id="main" when this happens. The value "25%" matches the width of the sidebar.</p>
+      <p>This is the contact page.</p>
+      <p>This is a site built with Vue.js that I'm using as a personal refresher.</p>
+      <p>As you can see, you can't use it to contact anyone yet; it's on my TODO list!</p>
     </div>
 
   </div>

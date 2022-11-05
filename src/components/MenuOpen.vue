@@ -1,6 +1,6 @@
 <template>
-  <div class="w3-teal">
-    <button id="openNav" class="w3-button w3-teal w3-xlarge" @click="w3Open">&#9776;</button>
+  <div class="w3-indigo">
+    <button id="openNav" class="w3-button w3-indigo w3-xlarge" @click="w3Open">&#9776;</button>
   </div>
 </template>
 
