@@ -1,8 +1,5 @@
 <template>
   <div id="main" class="home">
-
-    <MenuOpen></MenuOpen>
-
     <div class="w3-container">
       <h1>Home</h1>
       <p>This is the home page.</p>
@@ -10,25 +7,23 @@
       <p>As you can see, there isn't a lot here yet! And, chances are, I'll break it a few times before it gets better.</p>
       <WeatherData v-bind:weather="weather"></WeatherData>
     </div>
-
   </div>
 </template>
 
 <script>
 
-import MenuOpen from "@/components/MenuOpen";
 import WeatherData from "@/components/WeatherData.vue";
 export default {
   name: 'HomeView',
-  components: {MenuOpen, WeatherData},
-  methods: {
-    w3Open() {
-      document.getElementById("main").style.marginLeft = "25%";
-      document.getElementById("mySidebar").style.width = "25%";
-      document.getElementById("mySidebar").style.display = "block";
-      document.getElementById("openNav").style.display = 'none';
-    }
-  }
+  components: {WeatherData},
+  // methods: {
+  //   w3Open() {
+  //     document.getElementById("main").style.marginLeft = "25%";
+  //     document.getElementById("mySidebar").style.width = "25%";
+  //     document.getElementById("mySidebar").style.display = "block";
+  //     document.getElementById("openNav").style.display = 'none';
+  //   }
+  // }
 
 }
 </script>
